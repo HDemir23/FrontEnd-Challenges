@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![![hover](image.png),![base](image-1.png)](./screenshot.jpg)
+![![hover](./image.png),![base](./image-1.png)](./screenshot.jpg)
 
 
 ## My process
 
 ### Built with
-
+  
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
