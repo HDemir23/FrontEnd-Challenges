@@ -1,0 +1,105 @@
+
+
+body{
+    background-color: hsl(27, 66%, 92%);
+}
+.Main{
+    width: 27%;
+    height: 70%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+
+
+.Balance{
+    border-radius: 20px;
+    color: #fff;
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+
+.Tablee2{
+    border-radius: 20px;
+
+    background-color: white;
+    margin-top: 10px;
+    height: 500px;
+    
+}
+.Tablee2 h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+
+.Tablee2 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 80px;
+    margin-right: 35px;
+}
+
+.Tablee2 li{
+    border-radius: 5px;
+    background-color: crimson;
+    color: crimson;
+    justify-content: space-evenly;
+}
+
+.Tablee2 li:hover{
+    background-color: cyan;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.day{
+    margin-top: -15px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.botom{
+    justify-content: space-between;
+    display: flex;
+}
+
+.total p{
+    padding-left: 20px ;
+    margin-top: 20px;
+}
+ 
+.t_balance{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.right p{
+    padding-right: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+.t_sus{
+    font-weight: bolder;
+
+}
+
+
