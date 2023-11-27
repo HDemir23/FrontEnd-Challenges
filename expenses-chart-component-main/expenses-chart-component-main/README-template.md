@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![![hover](./image.png),![base](./image-1.png)](./screenshot.jpg)
+![![hover](./image.png)](./image.png)
 
 
 ## My process
