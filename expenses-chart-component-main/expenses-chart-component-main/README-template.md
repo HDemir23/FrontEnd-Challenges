@@ -9,7 +9,6 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
-
 ## Overview
 
 ### The challenge
@@ -24,24 +23,20 @@ Users should be able to:
 
 ### Screenshot
 
-![![hover](./image.png)](./image.png)
+![![hover](image.png)](./image.png)
 ![![hover](image-1.png)](./image-1.png)
-
-
+![![hover](image-2.png)](./image-2.png)
 
 ## My process
 
 ### Built with
-  
+
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 
-
-
 ### What I learned
-
 
 ```js
 const proudOfThisFunc = () => {
@@ -76,8 +71,3 @@ const proudOfThisFunc = () => {
 ')
 }
 ```
-
-
-
-
-

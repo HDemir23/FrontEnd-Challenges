@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <div class="Main">
+    <div class="box">
+      <div class="input">
+
+
+        <form action="">
+          <div class="base">
+            <div class="enter">
+              <div class="block">
+                <p class="title">Day</p>
+                <input type="number" name="day" id="day" placeholder="dd" required="required" max="31" minlength="1" maxlength="2">
+                <p class="erorr_m" id="error"></p>
+              </div>
+              <div class="block">
+                <p class="title">Month</p>
+                <input type="number" name="month" id="month" placeholder="mm" required="required" max="12" minlength="1" maxlength="2">
+                <p class="erorr_m" id="error1"></p>
+
+              </div>
+              <div class="block">
+                <p class="title">Year</p>
+                <input type="number" name="year" id="year" placeholder="yyyy" required="required" max="2024" minlength="1" maxlength="4">
+                <p class="erorr_m" id="error2"></p>
+
+              </div>
+            </div>
+          </div>
+        </form> 
+
+
+        <!-- <form action="">
+          <input type="number" min="1" max="31" id="Day" required>
+          <input type="number" min="1" max="12" id="Month" required>
+          <input type="number" min="1800" max="2023" id="Year" required>
+        </form> -->
+      </div>
+      <hr>
+      <div class="output" id="result">
+        <p><a  id="year_result">--</a>years</p>
+        <p><a id="month_result">--</a>months</p>
+        <p><a id="day_result">--</a>days</p>
+      </div>
+
+    </div>
+    <div class="box_right">
+      <label>
+         
+      <button class="btn" onclick="calculateAge()">      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+      </button>
+
+      </label>
+    </div>
+
+<!--       
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
