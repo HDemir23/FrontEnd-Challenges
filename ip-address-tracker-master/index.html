@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+</head>
+<body>
+
+<div class="container">
+  <div class="image"><img src="./images/pattern-bg-desktop.png" alt=""></div>
+    <div class="top">
+      <h1>IP Address Tracker</h1>
+      <div class="custom_input">
+        <input class="input" type="text" id="IP-Input" placeholder="Not Working RN">
+        <button class="svg_icon" onclick="searchLocation()"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg></button>
+    </div>
+    
+    </div>
+    <div class="stuuf">
+      <div class="stuff">
+        <div class="info">
+          <p>IP ADDRESS</p>
+          <section id="IP"></section>
+        </div>
+        <hr/>
+        <div class="info">
+          <p>LOCATION</p>
+          <section id="LOCATION"></section>
+        </div>
+        <hr/>
+        <div class="info">
+          <p>TIMEZONE</p>
+          <section id="TIMEZONE"></section>
+        </div>
+        <hr/>
+        <div class="info">
+          <p>ISP</p>
+          <section id="ISP"></section>
+        </div>
+      </div>
+  <div  id="map"></div>
+
+</div>
+
+
+
+
+
+  <!-- 
+
+  Search for any IP address or domain
+
+  IP Address
+  Location
+  Timezone
+    UTC  add offset value dynamically using the API 
+  ISP
+-->
+
+</body>
+</html>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="script.js"></script>
