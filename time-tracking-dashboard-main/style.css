@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(226, 43%, 10%) ;
+}
+
+.rows{
+    display: flex;
+    height: 65vh;
+    width: 70%;
+    justify-content: space-between;
+}
+
+
+
+/* person section start*/
+.person{
+    background-color: hsl(235, 46%, 20%);
+    width: 25%;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+    margin: 20px;
+    height: 100%;
+}
+
+.p-top{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    height: 65%;
+}
+
+.person img{
+    border: solid;
+    border-radius: 50%;
+    border-color: #fff;
+    width: 80px;
+    margin: 20px 40px;
+}
+
+.p-top p{
+    font-size: 12px;
+    color: white;
+    margin-left: 40px;
+
+}
+
+.p-top h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 40px;
+
+}
+
+
+
+.p-btn{
+    padding-left: 40px;
+}
+
+.p-btn div{
+    color: hsl(236, 100%, 87%);
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.p-btn div:hover{
+    color: #fff;
+}
+
+
+
+/* person section end*/
+
+
+/* Cards */
+.card-container{
+    width: 300px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.card{
+    z-index: 1;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    height: 45%;
+    margin: 10% 5% 10% 5%;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: hsl(264, 64%, 52%);
+}
+
+svg {
+    z-index: 0;
+    float: inline-end;
+}
+.card-layer{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    z-index: 0;
+    height: 20%;
+}
+
+
+.title{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px 0px 40px;
+}
+
+.hrs{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.data{
+    margin-left: 30px;    
+    color: hsl(236, 100%, 87%);
+}
+
+
+.work{
+    background-color: hsl(15, 100%, 70%);
+}
+
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+
+.Play{
+    background-color: hsl(195, 74%, 62%);
+}
+
+.social{
+    background-color: hsl(264, 64%, 52%);
+
+}
+
+.Study{
+    background-color: hsl(348, 100%, 68%);
+}
+.Self-Care{
+    background-color: hsl(43, 84%, 65%);
+
+}
